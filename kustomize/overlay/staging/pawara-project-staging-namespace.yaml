@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pawara-project-staging
+  labels:
+    environment-id: env_96d2d945-2f8b-4a80-80a3-0ea813b94b09
+    project-id: project_b2392449-fe2f-4304-af8b-2d88c7201212
+    project-name: pawara project
+    environment-name: staging
+    organization-id: org_6659ea29-3003-4a3d-aa0b-5ec7e1b0cc85

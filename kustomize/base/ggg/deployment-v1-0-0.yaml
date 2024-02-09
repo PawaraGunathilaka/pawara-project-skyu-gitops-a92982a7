@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ggg-v1-0-0
+  labels:
+    app: ggg-v1-0-0
+    applicationId: app_34ba40d8-7ed9-4ec2-8380-18d942d48454
+    version: v1.0.0
+    organizationId: org_6d1064c7-007d-44b1-9606-8fef3a204121
+    projectId: project_ccdb790d-12f2-4861-a3fd-fb3840651d3f
+spec:
+  selector:
+    matchLabels:
+      app: ggg-v1-0-0
+  template:
+    metadata:
+      labels:
+        app: ggg-v1-0-0
